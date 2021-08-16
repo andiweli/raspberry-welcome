@@ -11,4 +11,4 @@
 5. sudo chmod -x /etc/update-motd.d/10-uname
 6. sudo mv /etc/motd /etc/motd.backup
 
-Updates coming for ioBroker, Minecraft server
+> Currently available for PiHole, ioBroker and Minecraft

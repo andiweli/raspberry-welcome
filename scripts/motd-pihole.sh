@@ -32,6 +32,9 @@ UpTime=`printf "%d Tage, %02d:%02d:%02dh" "$days" "$hours" "$mins" "$secs"`
 # IP adresses
 IP=`ip route get 8.8.8.8 | sed -n '/src/{s/.*src *\([^ ]*\).*/\1/p;q}'`
 
+# Model
+Model=`cat /sys/firmware/devicetree/base/model`
+
 echo "$(tput setaf 2)
  #######
    ########    %%%%
@@ -47,6 +50,7 @@ echo "$(tput setaf 2)
        #%%%%%#####
           %%%##$(tput setaf 8)
 
+$Model
 `uname -srmo`
 `date +"%A, %e %B %Y, %H:%M:%S"`
 $(tput sgr0)"

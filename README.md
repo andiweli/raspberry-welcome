@@ -4,8 +4,8 @@
 ![Image of MOTD for PiHole](https://github.com/andiweli/raspberry-welcome/blob/main/images/pihole-motd.png)
 
 ## Install instructions:
-1. mkdir /home/pi/scripts
-2. curl -o /home/pi/scripts/motd.sh [path to .sh script from my repository]
+1. sudo mkdir /opt/motd
+2. curl -o /opt/motd/motd.sh [path to .sh script from my repository]
 3. chmod +x /home/pi/scripts/motd.sh
 4. sudo ln -s /home/pi/scripts/motd.sh /etc/update-motd.d/11-raspberry-welcome-message
 5. sudo chmod -x /etc/update-motd.d/10-uname

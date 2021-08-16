@@ -1,9 +1,9 @@
-# raspberry-welcome
-Raspberry Pi Welcome Message (based off https://github.com/reloxx13/reloxx13.github.io)
+# Raspberry Pi Welcome Message
+(based off https://github.com/reloxx13/reloxx13.github.io)
 
 ![Image of MOTD for PiHole](https://github.com/andiweli/raspberry-welcome/blob/main/images/pihole-motd.png)
 
-Install instructions:
+## Install instructions:
 1. mkdir /home/pi/scripts
 2. curl -o /home/pi/scripts/motd.sh [path to .sh script from my repository]
 3. chmod +x /home/pi/scripts/motd.sh

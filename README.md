@@ -5,10 +5,10 @@
 
 ## Install instructions:
 1. sudo mkdir /opt/motd
-2. curl -o /opt/motd/motd.sh [path to .sh script from my repository]
-3. chmod +x /home/pi/scripts/motd.sh
-4. sudo ln -s /home/pi/scripts/motd.sh /etc/update-motd.d/11-raspberry-welcome-message
+2. sudo curl -o /opt/motd/motd.sh [path to .sh script from my repository]
+3. sudo chmod +x /opt/motd/motd.sh
+4. sudo ln -s /opt/motd/motd.sh /etc/update-motd.d/11-raspberry-welcome-message
 5. sudo chmod -x /etc/update-motd.d/10-uname
-6. sudu mv /etc/motd /etc/motd.backup
+6. sudo mv /etc/motd /etc/motd.backup
 
 Updates coming for ioBroker, Minecraft server

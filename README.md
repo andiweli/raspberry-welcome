@@ -11,4 +11,4 @@
 5. sudo chmod -x /etc/update-motd.d/10-uname
 6. sudu mv /etc/motd /etc/motd.backup
 
-Updates coming.
+Updates coming for ioBroker, Minecraft server

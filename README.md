@@ -1,4 +1,4 @@
-# Raspberry Pi Welcome Message
+# Raspberry Pi ASCII art welcome message
 (based off https://github.com/reloxx13/reloxx13.github.io)
 
 ![Image of MOTD for PiHole](https://github.com/andiweli/raspberry-welcome/blob/main/images/pihole-motd.png)

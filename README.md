@@ -12,3 +12,4 @@
 6. sudo mv /etc/motd /etc/motd.backup
 
 > Currently available for PiHole, ioBroker and Minecraft
+> Minimal version available for ioBroker and NextcloudPi

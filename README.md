@@ -11,5 +11,5 @@
 5. sudo chmod -x /etc/update-motd.d/10-uname
 6. sudo mv /etc/motd /etc/motd.backup
 
-> Currently available for PiHole, ioBroker and Minecraft
+> Currently available for PiHole, ioBroker and Minecraft<br>
 > Minimal version available for ioBroker and NextcloudPi
